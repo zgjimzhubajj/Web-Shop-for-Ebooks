@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image:url("img/back1.webp");
+}
+
+header nav {
+    background: #222222;
+    /* height: 80px; */
+    width: 100%; 
+    height: auto;
+    position: static; 
+}
+
+footer{
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 30px;
+}
+
+
+.logo{
+    color: white;
+    font-size:40px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 90px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background-color: #f8f8f8;
+    color: #222222;
+}
+
+nav ul li a:active{
+    background-color: #222222;
+    color: #ffffff;
+}   
+
+.HamburgerMenu{
+    font-size: 40px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+
+}
+#BurgerMenu{
+    color: white;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+@media(max-width: 952px){
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width: 858px){
+    .HamburgerMenu{
+        display: block;
+    }
+    #BurgerMenu{
+        display: block;
+        
+    }
+    ul{
+        width: 100%;
+        top: 80px;
+        background-color: #222222;
+        text-align: center;
+        position: static;
+        margin-right: 0 !important;
+    }
+
+    header, nav {
+        height: auto;
+        position: static;
+        }
+
+    nav ul li{
+        display:block;
+        margin: 30px 0;
+        line-height: 10px;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+    }   
+}
+/* This part was the Navigation part of css */
+
+/* ------------------------------------------- */
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.section{
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.line{
+   height: 20px;
+   background-color: #fff;
+   margin-top: 20px;
+   
+}
+h3{
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+h4{
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+   
+}
+
+.BooksGallery{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    /* cursor: pointer; */
+    padding-top: 10px;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+    transition: .4s;
+    background: #fff;
+}
+.content:hover{
+    transform: scale(1.1);
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+
+}
+
+img{
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+ h6{
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+    color: #222222;
+    font-weight: bold;
+    margin-top: 15px;
+ }
+
+ button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    }
+
+    .buy-button1{
+        background-color: #1150a9;
+    }
+    .buy-button2{
+        background-color: #07991b;
+    }
+    .buy-button3{
+        background-color: #c9bc0a;
+    }
+    .buy-button4{
+        background-color: #610972;
+    }
+    .buy-button5{
+        background-color: #cf460b;
+    }
+    .buy-button6{
+        background-color: #a91111;
+    }
+
+    /* This part was main part of css */
+
+    
+
+    .CartGallery{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px; 
+    }
+    .content-cart{
+        width: 20%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 10px;
+        transition: .4s;
+        background: #fff;
+    }
+    .content-cart1{
+        width: 40%;
+        margin: 35px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 10px;
+        transition: .4s;
+        background: #fff;
+    }
+
+    .content-cart:hover{
+        transform: scale(1.1);
+    
+    }
+    .content-cart1:hover{
+        transform: scale(1.1);
+    
+    }
+

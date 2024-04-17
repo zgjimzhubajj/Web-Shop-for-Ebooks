@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" name="hamburgerMenu" id="BurgerMenu" placeholder="Menu">
+            <label for="burgerMenu" class="HamburgerMenu">
+                <i class="fa fa-bars"></i>
+            </label>
+            <label class="logo" for="logo">KOSX E-Books</label>
+            <ul>
+                <li><a class="active" href="index.html">Home <i class="fa fa-home"></i></a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">New Books <i class="fa fa-book"></i></a></li>
+                <li><a href="#">Old Books <i class="fa fa-book"></i></a></li>
+                <li><a href="#">Contact <i class="fa fa-phone"></i></a></li>
+                <li><a href="filter.html">Filter <i class="fa fa-filter"></i> </a></li>
+                <a href="cart.html">
+                    <i id="cart" class="fa fa-shopping-cart"></i>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Two Sections of Filtering: Alphabetically and By Price</h1>
+        <section>
+            <h2 class="section">Filtered Alphabetically A-Z</h2>
+            <div class="BooksGallery">
+                <div class="content">
+                    <img src="img/html1.jpg" alt="Html_and_Css_Book1">
+                    <h3 id="html-book1">HTML and CSS</h3>
+                    <h4 id="html-author-name_book1">Authors Name</h4>
+                    <p id="html-description-book1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but</p>
+                    <h6 id="html-price-book1">$100.00</h6>
+                    <button class="buy-button1"><a href="cart.html">Buy Now</a></button>
+                </div> 
+                <div class="content">
+                    <img src="img/html2.jpg" alt="Html_and_Css_Book2">
+                    <h3> HTML and CSS </h3>
+                    <h4>Authors Name</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but</p>
+                    <h6>$180.00</h6>
+                    <button class="buy-button2"><a href="cart.html">Buy Now</a></button>
+                </div>
+                <div class="content">
+                    <img src="img/html5.png" alt="Html_Css_and_JavaScript_Book2">
+                    <h3>HTML, CSS and Javascript</h3>
+                    <h4>Authors Name</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but</p>
+                    <h6>$190.00</h6>
+                    <button class="buy-button5"><a href="cart.html">Buy Now</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <hr class="line">
+            <h2 class="section">Filtered By Price $95.00 - $245.00</h2>
+            <div class="BooksGallery">
+                <div class="content">
+                    <img src="img/html6.jpg" alt="Html_Css_and_JavaScript_Book3">
+                    <h3>HTML, CSS and Javascript</h3>
+                    <h4>Authors Name</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but</p>
+                    <h6>$95.00</h6>
+                    <button class="buy-button6"><a href="cart.html">Buy Now</a></button>
+                </div>
+                <div class="content">
+                    <img src="img/html4.jpg" alt="Html_Css_and_JavaScript_Book1">
+                    <h3>HTML, CSS and Javascript</h3>
+                    <h4>Authors Name</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but</p>
+                    <h6>$150.00</h6>
+                    <button class="buy-button4"><a href="cart.html">Buy Now</a></button>
+                </div>
+                <div class="content">
+                    <img src="img/html5.png" alt="Html_Css_and_JavaScript_Book2">
+                    <h3>HTML, CSS and Javascript</h3>
+                    <h4>Authors Name</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but</p>
+                    <h6>$245.00</h6>
+                    <button class="buy-button5"><a href="cart.html">Buy Now</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <h3>KOSX E-Books</h3>
+                <p>Our goal is to make you happy with our service</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i> </a></li>
+                </ul>
+            </div>
+                <p>All Rights Reserved By &copy;KOSX E-Books 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
